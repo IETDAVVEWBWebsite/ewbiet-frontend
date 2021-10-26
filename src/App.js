@@ -1,22 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import Navbar from "./Components/Navbar/Navbar.js";
+import { Switch, Route, Redirect, Link } from "react-router-dom";
+import Home from "./Components/Home/Home.js";
+import About from "./Components/About/About.js";
 
 function App() {
+
+  useEffect(() => {
+
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Redirect to="/" />
+        </Switch>
       </header>
     </div>
   );

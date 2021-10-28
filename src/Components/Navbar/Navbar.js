@@ -10,8 +10,8 @@ function Navbar() {
         <div class='container-fluid'>
           <Link class='navbar-brand' to='/'>
             <div>
-                <img src={ewblogo} alt="ewb-iet logo"/>
-                <span>IET DAVV CHAPTER</span>
+                <img style={{height:"50px"}} src={ewblogo} alt="ewb-iet logo"/>
+                <span>IET CHAPTER</span>
             </div>
             
           </Link>
@@ -41,24 +41,24 @@ function Navbar() {
                 </a>
                 <ul class='dropdown-menu' aria-labelledby='navbarDropdown'>
                   <li>
-                    <a class='dropdown-item' href='#'>
+                    <Link class='dropdown-item' to="/hkbs">
                       Helen Keller Blind School
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a class='dropdown-item' href='#'>
+                    <Link class='dropdown-item' to="/nab">
                       National Association for the Blind
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a class='dropdown-item' href='#'>
+                    <Link class='dropdown-item' to="/ssg">
                       Social Service Group
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a class='dropdown-item' href='#'>
+                    <Link class='dropdown-item' to="/cg">
                       Career Guidance
-                    </a>
+                    </Link>
                   </li>
                   {/* <li>
                     <hr class='dropdown-divider'></hr>
@@ -76,7 +76,7 @@ function Navbar() {
                 </Link>
               </li>
               <li class='nav-item'>
-                <Link class='nav-link' aria-current='page' to='/about'>
+                <Link class='nav-link' aria-current='page' to='/contact'>
                   Contact
                 </Link>
               </li>

@@ -3,7 +3,7 @@ import React from 'react'
 function NAB() {
     return (
         <div>
-            <h1>jdnakjnjkank</h1>
+            <h1>NAB</h1>
         </div>
     )
 }

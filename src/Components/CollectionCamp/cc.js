@@ -1,0 +1,64 @@
+import React from "react";
+import "../CollectionCamp/cc.css";
+
+
+
+function CC() {
+    return (
+        <div className="maindiv">
+            <div className="mainheading font-link"><b>Collection Camp</b></div>
+
+
+            <div class="container">
+                <div class="row featurette d-flex justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body rounded block">
+                    <div class="col-md-7 order-md-1 lh-base content">
+                        <h2 class="featurette-heading">CLOTH COLLECTION DRIVE</h2>
+                        <p class="lead">
+                        <li>EWB IET chapter planned a "Collection Drive" on 25th December 2020. Using the tagline - <b>“Your Trash could be someone else's Treasure”</b>, we completed the drive successfully with good management and coordination skills of the volunteers.</li>
+            <li>We distributed around <b>800+</b> clothes to the needy ones!!</li>
+            <li>We asked people to donate old but wearable regular clothes, winter clothes (gloves, hats, socks, coats), blankets, stationery supplies etc.</li>
+            <li>It was mentioned in the circulated messages to follow the proper social distancing and safety guidelines while participating in this drive. Every member took care of it and followed the guidelines.</li>
+            <li>This drive was conducted in different cities <b>(Mumbai, Indore, Bhopal, Shahdol ,Dewas, Vidisha ,Ratlam, Sarangpur)</b> having respective leaders in each city.</li>
+                        </p>
+                    </div>
+                    <div class="col-md-5 order-md-2 img">
+                        <img alt="cc1" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto image" width="400" height="400" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row featurette d-flex justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body rounded">
+                    <div class="col-md-7 order-md-2 lh-base content">
+                        <h2 class="featurette-heading">COLLECTION CAMP</h2>
+                        <p class="lead">
+                        <li>Collection camp is organised every year during February- March.</li>
+                        <li>It is a two to three day camp in which Stationary items, clothes, books-notebooks, financial donations are collected from college students and other departments of university.</li>
+                        <li>Money and other items donated at Jeevanshaala School for underprivileged children and Helen Keller blind school.</li>
+                        </p>
+                    </div>
+                    <div class="col-md-5 order-md-2 img">
+                        <img alt="cc2" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto image" width="400" height="400" />
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row featurette d-flex justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body rounded ">
+                    <div class="col-md-7 order-md-1 lh-base content">
+                        <h2 class="featurette-heading">BLOOD DONATION CAMP</h2>
+                        <p class="lead">Organized in January 2015. In Association with “Mobile Blood Bank”- M.Y hospital, Indore. 80 units of blood donated by the students of IET DAVV.</p>
+                    </div>
+                    <div class="col-md-5 order-md-2 img">
+                        <img alt="cc3" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto image" width="400" height="400" />
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    );
+}
+
+export default CC;

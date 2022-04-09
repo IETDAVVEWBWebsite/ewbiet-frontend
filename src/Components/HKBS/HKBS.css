@@ -1,10 +1,28 @@
-.hkbsmainheading{
-    text-align: center;
-
+.container{
+    margin-top:25px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.hkbsmaincontent{
-    background: yellow;
-    color: black;
-    padding: 10px;
-    margin: 10px;
+
+.font-link{
+    font-family: 'Raleway', sans-serif;
+}
+.content{
+    width:1146px;
+    text-align: justify;
+}
+.img{
+    padding:25px;
+}
+
+.hkbsimage{
+    border: 5px solid grey;
+}
+.mainheadinghkbs{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 1.6;
 }

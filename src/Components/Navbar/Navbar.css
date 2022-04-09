@@ -1,5 +1,5 @@
 .navbar-custom {
-    background: rgb(29, 29, 29);
+    background: rgb(26, 70, 59);
 }
   
   .navbar-light {
@@ -20,4 +20,10 @@
   .st {
     position: absolute;
   }
+  @media screen and (max-width: 400px) {
+    .logo {
+      width: 80px;
+    }
+  }
   
+

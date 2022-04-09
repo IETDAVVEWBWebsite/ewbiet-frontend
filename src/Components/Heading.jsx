@@ -3,7 +3,7 @@ import "./HKBS/HKBS.css";
 
 function Heading(props){
     return(
-<div className="mainheadinghkbs font-link"><b>{props.content}</b></div>
+<div className="mainheading font-link"><b>{props.content}</b></div>
     );
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "../Image";
 import Heading from "../Heading";
-import "../NAB/NAB.css";
+import "../style.css";
 import nab1 from "./Image/nab1.jpeg";
 import nab2 from "./Image/nab2.jpeg";
 import nab3 from "./Image/nab3.jpeg";
@@ -16,12 +16,12 @@ function NAB() {
              <Heading content="National Association for the Blind" />
 
             <div class="container">
-                <div class="row featurette d-flex justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body rounded block">
-                    <div class="col-md-7 order-md-1 lh-base content">
+                <div class="row featurette d-flex justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body rounded">
+                    <div class="lh-base content">
                         <h2 class="featurette-heading">INTRODUCTION</h2>
                         <p class="lead">NAB is situated near Bombay Hospital Indore and is residence of about 35 partial and complete blind students ( from Higher Secondary to Post Graduation level ). We have a team of <b>15+ EWB members</b> dedicated for NAB activity.</p>
                     </div>
-                    <div class="col-md-5 order-md-2 img display">
+                    <div class="display">
                     <Image img={nab1}/>
                     <Image img={nab2}/>
                     <Image img={nab3}/>
@@ -31,7 +31,7 @@ function NAB() {
 
             <div class="container">
                 <div class="row featurette d-flex justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body rounded">
-                    <div class="col-md-7 order-md-2 lh-base content">
+                    <div class="lh-base content">
                         <h2 class="featurette-heading">OBJECTIVE</h2>
                         <p class="lead">
                         To empower visually challenged population of our country , thus enabling them to lead a life of dignity and productivity.
@@ -42,7 +42,7 @@ function NAB() {
 
             <div class="container">
                 <div class="row featurette d-flex justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body rounded ">
-                    <div class="col-md-7 order-md-1 lh-base content">
+                    <div class="lh-base content">
                         <h2 class="featurette-heading">WORK DONE TILL DATE</h2>
                         <p class="lead">On 19th OCT 2019, we visited NAB for the first time and tried to understand the problems students usually face . A few of the key problems include unavailability of book content in recorded form, problem in understanding and speaking English and unavailability of scribe (writers) for exams.</p>
                         <p class="lead">In order to provide book content in recorded form , we took responsibility of recording 6 books. To record these books, we spent <b>80+ hours and helped more than 30 students.</b> Till now we have recorded about<b> 15+ books</b> and spent <b>300+ hours .</b></p>
@@ -52,7 +52,7 @@ function NAB() {
                         
 
                     </div>
-                    <div class="col-md-5 order-md-2 img display">
+                    <div class="display">
                     <Image img={nab4}/>
                     <Image img={nab5}/>
                     <Image img={nab6}/>

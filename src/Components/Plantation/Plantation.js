@@ -1,15 +1,18 @@
 import React from "react";
+import Image from "../Image";
+import Heading from "../Heading";
 import "../Plantation/Plantation.css";
 import plantation1 from "./Images/plantation1.jpeg";
 import plantation2 from "./Images/plantation2.jpeg";
 import plantation3 from "./Images/plantation3.jpg";
+import plantation4 from "./Images/plantation4.jpg";
+import plantation5 from "./Images/plantation5.jpeg";
 
 
 function PLANTATION() {
     return (
         <div className="maindiv">
-            <div className="mainheading font-link"><b>Plantation</b></div>
-
+            <Heading content="Plantation" />
 
             <div class="container">
                 <div class="row featurette d-flex justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body rounded block">
@@ -17,8 +20,10 @@ function PLANTATION() {
                         <h2 class="featurette-heading">INTRODUCTION</h2>
                         <p class="lead">IET DAVV Campus is situated at Khandwa road, Indore and our aim is to aware and educate people for plantation of Trees and protection of environment We have a team of <b>50+ EWB members</b> who participate every year once for plantation activity.</p>
                     </div>
-                    <div class="col-md-5 order-md-2 img">
-                        <img src={plantation1} alt="plantation1" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto image" width="400" height="400"/>
+                    <div class="col-md-5 order-md-2 img display">
+                    <Image img={plantation1}/>
+                    <Image img={plantation2}/>
+                    <Image img={plantation3}/>
                     </div>
                 </div>
             </div>
@@ -31,10 +36,8 @@ function PLANTATION() {
                         The objective of the program was to create awareness among the students regarding the importance of ecology and the natural environment and to keep the campus <b>Clean and Green</b>.
                         </p>
                     </div>
-                    <div class="col-md-5 order-md-2 img">
-                        <img src={plantation2} alt="plantation2" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto image" width="400" height="400" />
-
-                    </div>
+                    {/* <div class="col-md-5 order-md-2 img display">
+                    </div> */}
                 </div>
             </div>
 
@@ -52,11 +55,14 @@ function PLANTATION() {
                         <p class="lead">In the blind race of development, we forget the mantra of Indian culture that nature is our mother and it cannot be exploited. This is the reason why the temperature of the earth is increasing and badly affected climate. The world is afraid of climate change. There is the only way which our saints and ‘puranas’ had told us that trees are friends of human and only trees can save us. Indian culture has accepted the importance of trees and encouraged it.</p>
 
                     </div>
-                    <div class="col-md-5 order-md-2 img">
-                        <img src={plantation3} alt="plantation3" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto image" width="400" height="400" />
+                    <div class="col-md-5 order-md-2 img display">
+                    <Image img={plantation4}/>
+                    <Image img={plantation5}/>
                     </div>
                 </div>
             </div>
+
+            
 
 
         </div>

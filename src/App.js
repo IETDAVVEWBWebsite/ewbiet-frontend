@@ -10,6 +10,9 @@ import CC from "./Components/CollectionCamp/cc.js"
 import NAB from "./Components/NAB/NAB";
 import CG from "./Components/CG/CG.js";
 import SSG from "./Components/SSG/SSG.js";
+import HKBS from "./Components/HKBS/HKBS.js";
+import PLANTATION from "./Components/Plantation/Plantation";
+import INDUCTION from "./Components/Induction/Induction";
 import Project from "./Components/Project/Project.js";
 import Team from "./Components/Team/Team.js";
 import Footer from "./Components/footer/Footer.js";
@@ -28,15 +31,18 @@ function App() {
   return (
     <>
     <div className="App">
-    
+     
         <Navbar />
         
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/collectioncamp" component={CC} />v
+          <Route exact path="/hkbs" component={HKBS} />
+          <Route exact path="/plantation" component={PLANTATION} />
           <Route exact path="/nab" component={NAB} />
+          <Route exact path="/induction" component={INDUCTION} />
+          <Route exact path="/collectioncamp" component={CC} />
           <Route exact path="/cg" component={CG} />
           <Route exact path="/ssg" component={SSG} />
           <Route exact path="/project" component={Project} />

@@ -19,8 +19,8 @@
 
 .image{
     border: 5px solid grey;
-    height:250px;
-    width:350px;
+    width:400px;
+    height:400px;
 }
 .mainheading{
     text-align: center;
@@ -35,4 +35,5 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    border-radius: 7px;
 } */

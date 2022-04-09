@@ -1,13 +1,22 @@
 import React from "react";
+import Image from "../Image";
+import Heading from "../Heading";
 import "../CollectionCamp/cc.css";
-
+import cc1 from "./Image/cc1.jpeg";
+import cc2 from "./Image/cc2.jpeg";
+import cc3 from "./Image/cc3.jpeg";
+import cc4 from "./Image/cc4.jpeg";
+import cc5 from "./Image/cc5.jpeg";
+import cc6 from "./Image/cc6.jpeg";
+import bd1 from "./Image/bd1.jpg";
+import bd2 from "./Image/bd2.jpg";
+import bd3 from "./Image/bd3.jpg";
 
 
 function CC() {
     return (
         <div className="maindiv">
-            <div className="mainheading font-link"><b>Collection Camp</b></div>
-
+            <Heading content="Collection Camp" />
 
             <div class="container">
                 <div class="row featurette d-flex justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body rounded block">
@@ -21,8 +30,13 @@ function CC() {
             <li>This drive was conducted in different cities <b>(Mumbai, Indore, Bhopal, Shahdol ,Dewas, Vidisha ,Ratlam, Sarangpur)</b> having respective leaders in each city.</li>
                         </p>
                     </div>
-                    <div class="col-md-5 order-md-2 img">
-                        <img alt="cc1" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto image" width="400" height="400" />
+                    <div class="col-md-5 order-md-2 img display">
+                        {/* <img src={cc1} alt="cc1" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto image"  />
+                        <img src={cc2} alt="cc2" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto image"  />
+                        <img src={cc3} alt="cc3" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto image" /> */}
+                        <Image img={cc1}/>
+                        <Image img={cc2}/>
+                        <Image img={cc3}/>
                     </div>
                 </div>
             </div>
@@ -37,9 +51,10 @@ function CC() {
                         <li>Money and other items donated at Jeevanshaala School for underprivileged children and Helen Keller blind school.</li>
                         </p>
                     </div>
-                    <div class="col-md-5 order-md-2 img">
-                        <img alt="cc2" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto image" width="400" height="400" />
-
+                    <div class="col-md-5 order-md-2 img display">
+                    <Image img={cc4}/>
+                    <Image img={cc5}/>
+                    <Image img={cc6}/>
                     </div>
                 </div>
             </div>
@@ -50,8 +65,10 @@ function CC() {
                         <h2 class="featurette-heading">BLOOD DONATION CAMP</h2>
                         <p class="lead">Organized in January 2015. In Association with “Mobile Blood Bank”- M.Y hospital, Indore. 80 units of blood donated by the students of IET DAVV.</p>
                     </div>
-                    <div class="col-md-5 order-md-2 img">
-                        <img alt="cc3" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto image" width="400" height="400" />
+                    <div class="col-md-5 order-md-2 img display">
+                    <Image img={bd1}/>
+                    <Image img={bd2}/>
+                    <Image img={bd3}/>
                     </div>
                 </div>
             </div>

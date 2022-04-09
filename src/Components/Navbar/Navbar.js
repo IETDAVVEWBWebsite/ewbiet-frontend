@@ -66,11 +66,11 @@ function Navbar() {
                     </Link>
                   </li>
 
-                  <li>
+                  {/* <li>
                     <Link class='dropdown-item' to="/resume">
                       Resume Building
                     </Link>
-                  </li>
+                  </li> */}
 
                   <li>
                     <Link class='dropdown-item' to="/collectioncamp">

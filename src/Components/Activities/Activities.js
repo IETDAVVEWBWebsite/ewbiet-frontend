@@ -184,7 +184,7 @@ const Activities = () => {
                                 <MDBCardText style={{ textAlign: 'justify' }}>
                                     
                                 </MDBCardText>
-                                <MDBBtn as='a' color='success'><Link class='text-light' to="/project" >Projects -></Link></MDBBtn>
+                                <MDBBtn as='a' color='success'><Link class='text-light' to="/project" >Projects -</Link></MDBBtn>
                             </MDBCardBody>
 
                         </MDBCol>

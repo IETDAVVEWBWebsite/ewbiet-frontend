@@ -3,7 +3,7 @@ import { MDBCard, MDBCardImage, MDBCardBody, MDBRow, MDBCol, MDBContainer } from
 import Typography from '@mui/material/Typography';
 import simpleback9 from "../../Images/simpleback9.jpg"
 import stuti from "../../Images/stuti.jpg"
-//import suyash from "../../Images/suyash.jpg"
+import twinkle from "../../Images/twinkle.jpg"
 //import jatin from "../../Images/jatin.jpg"
 //import avi from "../../Images/avi.jpg"
 //import swasti from "../../Images/swasti.jpg"
@@ -32,7 +32,7 @@ const Team = () => {
           <MDBRow className='row-cols-1 row-cols-md-3 g-4 mb-4' >
 
             <MDBCol>
-              <MDBCard  class="square border" style={{ margin: 15 }}>
+              <MDBCard  class="square border" style={{ margin: 15 }} sx={{ minWidth: 500 }}q>
                 <MDBCardImage
                   src={stuti} alt='president' position='top'
                 />
@@ -118,7 +118,7 @@ const Team = () => {
             <MDBCol>
               <MDBCard class="square border" style={{ margin: 15 }}>
                 <MDBCardImage
-                  src={stuti} alt='Secretary' position='top'
+                  src={twinkle} alt='Secretary' position='top'
                 />
                 <MDBCardBody>
                   <Typography component="h5" variant="h5" align="center" gutterBottom color='#006622'>Twinkle Makhija</Typography>

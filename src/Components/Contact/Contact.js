@@ -42,24 +42,16 @@ const Contact = () => {
     return (
         <>
         
-       
-            <div className="my-5">
-                
-                <Typography
-                    component="h1"
-                    variant="h2"
-                    align="center"
-                    // color="text.primary"
-                    gutterBottom
-                    color='#31695B'
-                >
-                    Contact Us
-                </Typography>
-            </div>
+        <div style={myStyle}>
+            
+                br
+                <Typography component="h1" variant="h2" align="center" gutterBottom color='#31695B' > Contact Us </Typography>
+            
             <div className="container contact_div">
                 <div className="row">
                     <div className="col-md-6 col-10 mx-auto">
                         <form onSubmit={formSubmit}>
+
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">
                                     Full Name
@@ -73,6 +65,7 @@ const Contact = () => {
                                     onChange={InputEvent}
                                     placeholder="Enter Your Name" />
                             </div>
+
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Phone</label>
                                 <input type="number"
@@ -83,6 +76,7 @@ const Contact = () => {
                                     onChange={InputEvent}
                                     placeholder="Mobile Number" />
                             </div>
+
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
                                 <input type="email"
@@ -93,6 +87,7 @@ const Contact = () => {
                                     onChange={InputEvent}
                                     placeholder="name@example.com" />
                             </div>
+                            
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                                 <textarea class="form-control"
@@ -110,6 +105,7 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
+            </div>
             </div>
             
         </>

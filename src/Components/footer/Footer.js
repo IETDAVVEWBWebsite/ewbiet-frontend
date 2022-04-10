@@ -16,7 +16,7 @@ const Footer = () => {
 
                         <Grid.Column width={7}>
                             <Header as='h2' inverted>EWB IET Chapter</Header>
-                            <h5 >EWB IET-DAVV is a institution chapter of Engineers Without Borders-India that designs and implements
+                            <h5 >EWB IET-DAVV is an institution chapter of Engineers Without Borders-India that designs and implements
                                 sustainable engineering projects that address pressing needs within underprivileged communities.</h5>
                         </Grid.Column>
 
@@ -50,7 +50,7 @@ const Footer = () => {
                                 <List.Item as='h6'><a href="https://gmail.com" className="text-white me-4" target="_blank" rel="noopener noreferrer"> ewbietchapter@gmail.com</a></List.Item>
                                 <h6>+ 91 97520 11133</h6>
                                 <h6>+ 91 62612 25439</h6>
-                                <List.Item as='h5'><Link to="/developers" >Developers</Link></List.Item>
+                                <List.Item as='h4' gutterBottom color='#163F5C'><Link to="/developers" >Developers</Link></List.Item>
 
 
                             </List>

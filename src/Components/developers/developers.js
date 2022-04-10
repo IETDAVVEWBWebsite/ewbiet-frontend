@@ -3,14 +3,9 @@ import { MDBCard, MDBCardImage, MDBCardBody, MDBCardText, MDBCardTitle, MDBBtn }
 import { MDBCol, MDBRow, MDBContainer } from 'mdb-react-ui-kit';
 import Typography from '@mui/material/Typography';
 import simpleback9 from "../../Images/simpleback9.jpg"
-import stuti from "../../Images/stuti.jpg"
-
-import Grid from '@material-ui/core/Grid';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
+import twinkle from "../../Images/twinkle.jpg"
+import aayush2 from "../../Images/aayush2.jpg"
+import jatin from "../../Images/Jatin.jpg"
 
 const myStyle = {
   backgroundImage: `url(${simpleback9})`,
@@ -29,7 +24,7 @@ const Developers = () => {
         <br />
         <Typography component="h1" variant="h2" align="center" gutterBottom color='#31695B'> Developer Team </Typography>
         <br />
-
+{/*
         <MDBContainer className='overflow-hidden'>
           <MDBRow className='row-cols-1 row-cols-md-2 g-4 mb-3 '>
             <Grid container spacing={0} direction="column" alignItems="center" justify="center" style={{ minHeight: '50vh' }} >
@@ -119,8 +114,51 @@ const Developers = () => {
           </Grid>
         </Grid>
 
-
+  
         <br />
+
+  */}
+
+<MDBContainer className='overflow-hidden'>
+          <MDBRow className='row-cols-1 row-cols-md-3 g-4 mb-4' >
+
+            <MDBCol>
+              <MDBCard  class="square border"  style={{ margin: 15 }} >
+                <MDBCardImage
+                  src={aayush2} alt='president' position='top'
+                />
+                <MDBCardBody>
+                  <Typography component="h5" variant="h5" align="center" gutterBottom color='#006622'>Aayush Sharma</Typography>
+                  <Typography component="h5" variant="h5" align="center" gutterBottom color='#00b3b3'>Developer</Typography>
+                </MDBCardBody>
+              </MDBCard>
+            </MDBCol>
+
+            <MDBCol>
+              <MDBCard class="square border" style={{ margin: 15 }}>
+                <MDBCardImage
+                  src={twinkle} alt='Vice President' position='top'
+                />
+                <MDBCardBody>
+                  <Typography component="h5" variant="h5" align="center" gutterBottom color='#006622'>Twinkle Makhija</Typography>
+                  <Typography component="h5" variant="h5" align="center" gutterBottom color='#00b3b3'>Developer</Typography>
+                </MDBCardBody>
+              </MDBCard>
+            </MDBCol>
+
+            <MDBCol>
+              <MDBCard class="square border" style={{ margin: 15 }}>
+                <MDBCardImage
+                  src={jatin} alt='Treasurer' position='top'
+                />
+                <MDBCardBody>
+                  <Typography component="h5" variant="h5" align="center" gutterBottom color='#006622'>Jatin Karla</Typography>
+                  <Typography component="h5" variant="h5" align="center" gutterBottom color='#00b3b3'> Mentor</Typography>
+                </MDBCardBody>
+              </MDBCard>
+            </MDBCol>
+            </MDBRow>
+            </MDBContainer>
       </div>
     </>
   );

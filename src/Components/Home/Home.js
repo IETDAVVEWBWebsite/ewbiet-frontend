@@ -37,7 +37,7 @@ const Home = () => (
             <img src={plantation} className="img-fluid animated" alt="First Slide" />
             <Carousel.Caption>
               <h1 className='carousel_text'>Plantation</h1>
-              <h5>We regularly conducts Plantation drive in campus.</h5>
+              <h5>We regularly conduct Plantation drives on campus.</h5>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -45,7 +45,7 @@ const Home = () => (
             <img src={solar} className="img-fluid animated" alt="Second Slide" />
             <Carousel.Caption>
               <h1 className='carousel_text'>Renewable Energy</h1>
-              <h5>We should use renewable energy sources for better tomorrow.</h5>
+              <h5>We should use renewable energy sources for a better tomorrow.</h5>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -61,7 +61,7 @@ const Home = () => (
             <img src={garbage} className="img-fluid animated" alt="Fourth Slide" />
             <Carousel.Caption>
               <h1 className='carousel_text'>Treatment of Garbage</h1>
-              <h5>Proper recycling of garbage for less pollution .</h5>
+              <h5>Proper recycling of garbage for less pollution.</h5>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -69,7 +69,7 @@ const Home = () => (
             <img src={water} className="img-fluid animated" alt="Fifth Slide" />
             <Carousel.Caption>
               <h1 className='carousel_text'>Clean drinking Water</h1>
-              <h5>We worked for clean drinking water to poor.</h5>
+              <h5>We worked for clean drinking water for the poor.</h5>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -77,7 +77,7 @@ const Home = () => (
             <img src={pollution} className="img-fluid animated" alt="Sixth Slide" />
             <Carousel.Caption>
               <h1 className='carousel_text'>Pollution</h1>
-              <h5>We work together for a pollution free tomorrow.</h5>
+              <h5>We work together for a pollution-free tomorrow.</h5>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -86,10 +86,10 @@ const Home = () => (
 
         <MDBContainer className='overflow-hidden'>
           <Typography variant="h5" align="middle" color="text.secondary" paragraph textAlign='justify' >
-            The mission of EWB-IET is to design and implement sustainable activities
+          The mission of EWB-IET is to design and implement sustainable activities
             that address pressing needs within the underprivileged communities.
             The club aims to utilize the engineering and technical talents of IET students
-            and faculty in order to help aid communities in gaining access to basic human needs and conducts various drives
+            and faculty to help aid communities in gaining access to basic human needs and conduct various drives
             such as cloth distribution drive, blind education, and sanitation facilities.
           </Typography>
         </MDBContainer>
@@ -104,10 +104,10 @@ const Home = () => (
                   Unleashing Great Minds on Great Problems
                 </Header>
                 <p style={{ fontSize: '1.33em', textAlign: 'justify' }} >
-                  Engineers Without Borders IET DAVV builds a better world through some activities and engineering projects that
+                Engineers Without Borders IET DAVV builds a better world through some activities and engineering projects that
                   empower communities to meet their basic human needs and equip leaders to solve the
                   most pressing challenges. Our members work with communities to find appropriate solutions
-                  for blind children's education, sanitation, clean water etc. Since our
+                  for blind children's education, sanitation, clean water, etc. Since our
                   founding in 2009, we have embarked on a variety of projects across different engineering
                   disciplines, addressing a spectrum of pressing issues around the world.
                 </p>
@@ -115,9 +115,9 @@ const Home = () => (
                   We works to improve the quality of life for communities
                 </Header>
                 <p style={{ fontSize: '1.33em', textAlign: 'justify' }}>
-                  At EWB -IET we look for students with an aspiration to help others and the motivation to do good.
+                At EWB-IET we look for students with an aspiration to help others and the motivation to do good.
                   We pride ourselves on our core values of; leadership, innovation, altruism, dedication,
-                  collaboration, and diversity. We hope to bring together like-minded students to create innovate
+                  collaboration, and diversity. We hope to bring together like-minded students to create innovative
                   engineering-based solutions to remove barriers to human development.
                 </p>
               </Grid.Column>
@@ -142,8 +142,8 @@ const Home = () => (
               Breaking The Grid, Grabs Your Attention through our projects
             </Header>
             <p style={{ fontSize: '1.33em', textAlign: 'justify' }}>
-              The chapter has undertaken the Ralamandal School Project which comprises of a number of smaller segments
-              like installation of water purification system, implementation of rainwater harvesting model
+            The chapter has undertaken the Ralamandal School Project which comprises a number of smaller segments
+              like installation of the water purification system, implementation of rainwater harvesting model.
             </p>
             <MDBBtn style={{ fontSize: '1em', height: '40px', width: '1h50px',}} as='a' color='success'><Link class='text-light' to="/project">Projects</Link></MDBBtn>
 
@@ -151,8 +151,8 @@ const Home = () => (
               Did We Tell You About Our Activities?
             </Header>
             <p style={{ fontSize: '1.33em', textAlign: 'justify' }}>
-              The Chapter has also been vital in guiding the new recruits of engineering to do their bit for
-              the society by organizing events like Blood Donation Camp, Hardware Collection Camp, Prudence and many more.
+            The Chapter has also been vital in guiding the recruits of engineering to do their bit for
+              the society by organizing events like Blood Donation Camp, Hardware Collection Camp, Prudence, and many more.
             </p>
             <MDBBtn style={{ fontSize: '1em', height: '40px', width: '110px' }} as='a' color='success'><Link class='text-light' to="/activities">Activities</Link></MDBBtn>
 
@@ -160,8 +160,8 @@ const Home = () => (
               Have a look at the gallery
             </Header>
             <p style={{ fontSize: '1.33em', textAlign: 'justify' }}>
-              The Chapter has also been vital in guiding the new recruits of engineering to do their bit for
-              the society by organizing events like Blood Donation Camp, Hardware Collection Camp, Prudence and many more.
+            EWB-IET is working for over a decade for the betterment of society and the needy. Along with that, we focus on the development of
+              students with extra activities have a look at them in the gallery.
             </p>
             <MDBBtn style={{ fontSize: '1em', height: '40px', width: '110px' }} as='a' color='success'><Link class='text-light' to="/gallery">Gallery</Link></MDBBtn>
           </Container>

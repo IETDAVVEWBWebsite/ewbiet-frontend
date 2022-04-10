@@ -18,7 +18,7 @@ function HKBS() {
       <div class="container">
         <div className="row featurette d-flex justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body rounded">
           <div class="lh-base content">
-            <h2 class="featurette-heading">HEADING</h2>
+            <h2 class="featurette-heading">INTRODUCTION</h2>
             <p class="lead">With a vision to educate and empower the blind students, Hellen Keller Blind School Project looks forward to provide the disabled children the facilities enjoyed by normal children.</p>
           <p class="lead">Started in the year 2010, this is a volunteer based and zero funded project. Currently, we have a team of <b>15+ EWB members</b> dedicated for helping out blind students under this project.
             This progam was initiated in collaboration with an eye specialist for targeting the low vision kids in the Helen Keller Blind School located in Nalakha.</p>

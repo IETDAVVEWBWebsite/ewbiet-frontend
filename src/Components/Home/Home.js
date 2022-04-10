@@ -6,9 +6,12 @@ import ewbhome from "../../Images/Home.jpg"
 import solar from "../../Images/solar.jpg"
 import plantation from "../../Images/plantation.jpg"
 import slum from "../../Images/slum.jpg"
+import collar_drive from "../../Images/collar_drive.jpg"
+import ind2 from "../../Images/ind2.jpeg"
+import youtube from "../../Images/youtube.png"
 import garbage from "../../Images/garbage.jpg"
 import water from "../../Images/water.jpg"
-import pollution from "../../Images/pollution.jpg"
+import Technical1 from "../../Images/Technical1.jpg"
 import simpleback10 from "../../Images/simpleback10.jpg"
 import Carousel from 'react-bootstrap/Carousel'
 import Typography from '@mui/material/Typography';
@@ -34,52 +37,48 @@ const Home = () => (
 
         <Carousel className="carousel" showControls fade >
           <Carousel.Item>
-            <img src={plantation} className="img-fluid animated" alt="First Slide" />
+            <img src={ind2} className="img-fluid animated" alt="First Slide" />
             <Carousel.Caption>
-              <h1 className='carousel_text'>Plantation</h1>
-              <h5>We regularly conduct Plantation drives on campus.</h5>
+              <h1 className='carousel_text'>Our Team</h1>
+              <h5>New members come and go but our vision and mission remain the same.</h5>
             </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
-            <img src={solar} className="img-fluid animated" alt="Second Slide" />
+            <img src={collar_drive} className="img-fluid animated" alt="Second Slide" />
             <Carousel.Caption>
-              <h1 className='carousel_text'>Renewable Energy</h1>
-              <h5>We should use renewable energy sources for a better tomorrow.</h5>
+              <h1 className='carousel_text'>Collar drive for Animals</h1>
+              <h5>We regularly conduct several drives for the protection and health of animals.</h5>
             </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
-            <img src={slum} className="img-fluid animated" alt="Third Slide" />
-            <Carousel.Caption>
+            <img src={youtube} className="img-fluid animated" alt="Third Slide" />
+           {/*} <Carousel.Caption>
               <h1 className='carousel_text'>Better Education</h1>
               <h5>We work for better Education for blind and poor children education.</h5>
-            </Carousel.Caption>
+  </Carousel.Caption> */}
           </Carousel.Item>
 
           <Carousel.Item>
-            <img src={garbage} className="img-fluid animated" alt="Fourth Slide" />
+            <img src={Technical1} className="img-fluid animated" alt="Fourth Slide" />
             <Carousel.Caption>
-              <h1 className='carousel_text'>Treatment of Garbage</h1>
+       {/*}       <h1 className='carousel_text'>Treatment of Garbage</h1>
               <h5>Proper recycling of garbage for less pollution.</h5>
+              */}
             </Carousel.Caption>
+
           </Carousel.Item>
 
           <Carousel.Item>
-            <img src={water} className="img-fluid animated" alt="Fifth Slide" />
+            <img src={plantation} className="img-fluid animated" alt="Fifth Slide" />
             <Carousel.Caption>
-              <h1 className='carousel_text'>Clean drinking Water</h1>
-              <h5>We worked for clean drinking water for the poor.</h5>
+              <h1 className='carousel_text'>Plantation Drive</h1>
+              <h5>We regularly conduct plantation drives in campus.</h5>
             </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <img src={pollution} className="img-fluid animated" alt="Sixth Slide" />
-            <Carousel.Caption>
-              <h1 className='carousel_text'>Pollution</h1>
-              <h5>We work together for a pollution-free tomorrow.</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
+        
         </Carousel>
 
         <Typography heading component="h1" variant="h2" align="center" gutterBottom color='#31695B' style={{ padding: '2em 0px 0px 0px' }} vertical> Our Mission </Typography>

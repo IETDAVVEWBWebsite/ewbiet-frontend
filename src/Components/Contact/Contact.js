@@ -44,7 +44,7 @@ const Contact = () => {
         
         <div style={myStyle}>
             
-                br
+                
                 <Typography component="h1" variant="h2" align="center" gutterBottom color='#31695B' > Contact Us </Typography>
             
             <div className="container contact_div">

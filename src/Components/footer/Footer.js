@@ -47,7 +47,7 @@ const Footer = () => {
                             <Header inverted as='h3' content='Reach Us at' />
                             <List link inverted>
                                 <List.Item as='h6'><a href="https://www.google.com/maps/place/IET+DAVV/@22.6811578,75.8775934,17z/data=!3m1!4b1!4m5!3m4!1s0x3962fcc03e36712d:0xb6f3c2bf734a7c!8m2!3d22.6811529!4d75.8797821" className="text-white me-4" target="_blank" rel="noopener noreferrer">IET-DAVV, Khandwa Road, Indore, 452017(M.P.)</a></List.Item>
-                                <List.Item as='h6'><a href="https://gmail.com" className="text-white me-4" target="_blank" rel="noopener noreferrer"> ewbietchapter@gmail.com</a></List.Item>
+                                <List.Item as='h6'><a href="https://gmail.com" className="text-white me-4" target="_blank" rel="noopener noreferrer"> ewb@ietdavv.edu.in</a></List.Item>
                                 <h6>+ 91 97520 11133</h6>
                                 <h6>+ 91 62612 25439</h6>
                                 <List.Item as='h4' gutterBottom color='#163F5C'><Link to="/developers" >Developers</Link></List.Item>

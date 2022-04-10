@@ -121,6 +121,12 @@ import img140 from "../../Images/140.jpg"
 import img141 from "../../Images/141.jpg"
 import img143 from "../../Images/143.jpg"
 import img144 from "../../Images/144.jpg"
+import collar1 from "../../Images/collar1.jpg"
+import collar2 from "../../Images/collar2.jpg"
+import collar3 from "../../Images/collar3.jpg"
+import collar4 from "../../Images/collar4.jpg"
+import collar5 from "../../Images/collar5.jpg"
+import collar6 from "../../Images/collar6.jpg"
 
 const myStyle = {
   backgroundImage: `url(${simpleback9})`,
@@ -136,6 +142,7 @@ const gallery = () => {
     <>
 
       <div style={myStyle}>
+        <br />
         
         <Typography heading component="h1" variant="h2" align="center" gutterBottom color='#31695B'  > Image Gallery </Typography>
 
@@ -144,6 +151,41 @@ const gallery = () => {
 
           <MDBRow className='row-cols-1 row-cols-md-3 g-4 mb-3 ' >
 
+          <MDBCol>
+              <MDBCard  style={{ margin: 15 }}> 
+              <MDBCardImage src={collar1} alt='img1' position='top' />
+              </MDBCard>
+            </MDBCol>
+
+            <MDBCol>
+              <MDBCard  style={{ margin: 15 }}> 
+              <MDBCardImage src={collar2} alt='img1' position='top' />
+              </MDBCard>
+            </MDBCol>
+
+            <MDBCol>
+              <MDBCard  style={{ margin: 15 }}> 
+              <MDBCardImage src={collar3} alt='img1' position='top' />
+              </MDBCard>
+            </MDBCol>
+
+            <MDBCol>
+              <MDBCard  style={{ margin: 15 }}> 
+              <MDBCardImage src={collar4} alt='img1' position='top' />
+              </MDBCard>
+            </MDBCol>
+
+            <MDBCol>
+              <MDBCard  style={{ margin: 15 }}> 
+              <MDBCardImage src={collar5} alt='img1' position='top' />
+              </MDBCard>
+            </MDBCol>
+
+            <MDBCol>
+              <MDBCard  style={{ margin: 15 }}> 
+              <MDBCardImage src={collar6} alt='img1' position='top' />
+              </MDBCard>
+            </MDBCol>
 
             <MDBCol>
               <MDBCard  style={{ margin: 15 }}> 

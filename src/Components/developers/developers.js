@@ -119,13 +119,16 @@ const Developers = () => {
 
   */}
 
+
+
+
 <MDBContainer className='overflow-hidden'>
-          <MDBRow className='row-cols-1 row-cols-md-3 g-4 mb-4' >
+          <MDBRow className='row-cols-1 row-cols-md-3 g-4 mb-3' >
 
             <MDBCol>
               <MDBCard  class="square border"  style={{ margin: 15 }} >
                 <MDBCardImage
-                  src={aayush2} alt='president' position='top'
+                  src={aayush2} alt='aayush' position='top'
                 />
                 <MDBCardBody>
                   <Typography component="h5" variant="h5" align="center" gutterBottom color='#006622'>Aayush Sharma</Typography>

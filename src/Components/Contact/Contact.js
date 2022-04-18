@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "../Contact/Contact.css"
 import Typography from '@mui/material/Typography';
 import simpleback9 from "../../Images/simpleback9.jpg"
+import emailjs from "emailjs-com";
+
+
 
 const myStyle = {
     backgroundImage: `url(${simpleback9})`,
@@ -36,7 +39,19 @@ const Contact = () => {
 
     const formSubmit = (e) => {
         e.preventDefault();
-        alert(`My name is ${data.fullname}. My mobile number is ${data.phone}  and email is ${data.email}, Here is what i want to say, ${data.msg} `);
+        // alert(`My name is ${data.fullname}. My mobile number is ${data.phone}  and email is ${data.email}, Here is what i want to say, ${data.msg} `);
+        emailjs.sendForm('service_csavigi', 'template_vgxlnrk', e.target, '9fQzCV8VaSq86VqJm').then(
+            res=>{console.log(res);
+            }
+        ).catch(err=>console.log(err));
+        alert("Successfully submitted");
+        setData({
+            fullname: "",
+        phone: "",
+        email: "",
+        msg: ""
+        })
+        
     };
     
     return (

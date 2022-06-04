@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "../Contact/Contact.css"
 import Typography from '@mui/material/Typography';
 import simpleback9 from "../../Images/simpleback9.jpg"
-import emailjs from "emailjs-com";
-
+// import emailjs from "emailjs-com";
+import axios from "axios";
 
 
 const myStyle = {
@@ -35,16 +35,39 @@ const Contact = () => {
             }
         })
 
+       
+
     };
 
     const formSubmit = (e) => {
         e.preventDefault();
         // alert(`My name is ${data.fullname}. My mobile number is ${data.phone}  and email is ${data.email}, Here is what i want to say, ${data.msg} `);
-        emailjs.sendForm('service_csavigi', 'template_vgxlnrk', e.target, '9fQzCV8VaSq86VqJm').then(
-            res=>{console.log(res);
-            }
-        ).catch(err=>console.log(err));
-        alert("Successfully submitted");
+        // emailjs.sendForm('service_csavigi', 'template_vgxlnrk', e.target, '9fQzCV8VaSq86VqJm').then(
+        //     res=>{console.log(res);
+        //     }
+        // ).catch(err=>console.log(err));
+        // alert("Successfully submitted");
+
+        var contactFormData={
+            fullname: data.fullname,
+            phone:data.phone,
+            email:data.email,
+            msg:data.msg
+        }
+
+        console.log('----contactFormData------',contactFormData);
+         
+        // http://localhost:3001
+
+        axios.post('https://ewb-iet-backend.herokuapp.com/Contact', contactFormData)
+          .then(function (response) {
+            console.log(response);
+            window.alert("Message sent Successfully");
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+
         setData({
             fullname: "",
         phone: "",
@@ -112,7 +135,7 @@ const Contact = () => {
                                     onChange={InputEvent}></textarea>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-outline-success" type="submit">
+                                <button class="btn btn-outline-success" type="submit" onClick={formSubmit}>
                                     Submit form
                                 </button>
                                 <hr />

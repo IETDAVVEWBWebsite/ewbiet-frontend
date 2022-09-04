@@ -1,0 +1,29 @@
+.navbar-custom {
+    background: rgb(26, 70, 59);
+}
+  
+  .navbar-light {
+}
+  
+  #signup {
+    margin: 0 10px;
+  }
+  .signuptext {
+    text-decoration: none;
+    color: inherit;
+  }
+  @media screen and (max-width: 991px) {
+    #signup {
+      margin: 10px 0;
+    }
+  }
+  .st {
+    position: absolute;
+  }
+  @media screen and (max-width: 400px) {
+    .logo {
+      width: 80px;
+    }
+  }
+  
+
